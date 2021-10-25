@@ -1,0 +1,53 @@
+.card {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 110px;
+  color: #d4e0be;
+  background-color: rgb(42, 63, 119);
+}
+
+.separator {
+  background-color: transparent;
+}
+
+.result {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  font-size: 32px;
+  color: #d4e0be;
+  background-color: rgb(145, 47, 184);
+  border: 0.1px solid #d4e0be;
+}
+
+.result:hover {
+  background-color: rgb(60, 21, 75);
+}
+
+.result-success, .result-success:hover {
+  background-color: rgb(61, 189, 50);
+}
+
+.result-error, .result-error:hover {
+  background-color: rgb(185, 28, 28);
+}
+
+#msgConfirmation {
+  color: #10ca28;
+  font-weight: bold;
+}
+
+.hit {
+  height:20px;
+  width:20px;
+  border-radius:50%;
+} 
+
+.hit-success {
+  background-color: rgb(51, 185, 24);
+}
+
+.hit-error {
+  background-color: rgb(204, 24, 24);
+}
